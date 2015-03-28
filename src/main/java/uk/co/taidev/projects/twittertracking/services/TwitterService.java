@@ -33,6 +33,8 @@ public class TwitterService {
                 .collect(Collectors.toList());
     }
 
+    // -----------
+
     private QueryResult getQueryResult(String searchTerms) {
         QueryResult queryResult;
 
