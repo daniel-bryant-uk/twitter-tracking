@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:hsqldb:mem:twittertracking;
+    username:
+    password:
+    driverClassName: org.hsqldb.jdbc.JDBCDriver
+    validation-query: SELECT 1 FROM INFORMATION_SCHEMA.SYSTEM_USERS
+  jpa:
+    database-platform: org.hibernate.dialect.HSQLDialect
+    show_sql: false

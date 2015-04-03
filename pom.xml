@@ -24,6 +24,7 @@
 		<java.version>1.8</java.version>
 		<twitter4j-core.version>4.0.2</twitter4j-core.version>
 		<bootstrap.version>3.3.4</bootstrap.version>
+		<orika-core.version>1.4.5</orika-core.version>
 	</properties>
 
 	<dependencies>
@@ -88,6 +89,11 @@
 			<artifactId>hsqldb</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<scope>test</scope>
+		</dependency>
 
 		<!-- SDKs-->
 		<dependency>
@@ -101,6 +107,13 @@
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
 			<version>${bootstrap.version}</version>
+		</dependency>
+
+		<!-- Mapping -->
+		<dependency>
+			<groupId>ma.glasnost.orika</groupId>
+			<artifactId>orika-core</artifactId>
+			<version>${orika-core.version}</version>
 		</dependency>
 	</dependencies>
 	
