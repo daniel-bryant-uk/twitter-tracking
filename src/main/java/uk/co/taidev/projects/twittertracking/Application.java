@@ -7,10 +7,10 @@ import twitter4j.Twitter;
 import twitter4j.TwitterFactory;
 
 @SpringBootApplication
-public class TwitterTrackingApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(TwitterTrackingApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
     @Bean

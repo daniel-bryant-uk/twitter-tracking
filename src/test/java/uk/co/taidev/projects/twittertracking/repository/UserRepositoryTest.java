@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import uk.co.taidev.projects.twittertracking.TwitterTrackingApplication;
+import uk.co.taidev.projects.twittertracking.Application;
 import uk.co.taidev.projects.twittertracking.models.User;
 
 import static org.hamcrest.CoreMatchers.notNullValue;
@@ -17,7 +17,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = TwitterTrackingApplication.class)
+@SpringApplicationConfiguration(classes = Application.class)
 @ActiveProfiles({"dev"})
 public class UserRepositoryTest {
 
