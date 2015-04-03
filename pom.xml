@@ -22,6 +22,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>uk.co.taidev.projects.twittertracking.Application</start-class>
 		<java.version>1.8</java.version>
+		<twitter4j-core.version>4.0.2</twitter4j-core.version>
+		<bootstrap.version>3.3.4</bootstrap.version>
 	</properties>
 
 	<dependencies>
@@ -91,14 +93,14 @@
 		<dependency>
 			<groupId>org.twitter4j</groupId>
 			<artifactId>twitter4j-core</artifactId>
-			<version>4.0.2</version>
+			<version>${twitter4j-core.version}</version>
 		</dependency>
 
 		<!-- WebJars -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
-			<version>3.3.4</version>
+			<version>${bootstrap.version}</version>
 		</dependency>
 	</dependencies>
 	
